@@ -1,0 +1,130 @@
+:root{
+--soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+--very-dark-blue900: hsl(217, 54%, 11%);
+--very-dark-blue700: hsl(216, 50%, 16%);
+--very-dark-blue500: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html{
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    height: 100vh;
+    background-color: var(--very-dark-blue900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--very-dark-blue700);
+    width: 355px;
+    height: 600px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+/*card-product-img*/
+.image-wrapper{
+position: relative;
+overflow: hidden;
+cursor: pointer;
+} 
+
+.image-wrapper::after{
+    --cyan: hsl(178, 100%, 50%, 0.5);
+    content: url(/images/icon-view.svg);
+    background: var(--cyan);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .25s ease;
+    } 
+
+.image-wrapper:hover::after{
+opacity: 1;
+}
+
+.main-card-image{
+    border-radius: 8px;
+}
+
+.card-title{
+    color: var(--white);
+    margin-top: 1.5em;
+}
+
+.card-title:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card-regular-text{
+    color:var(--soft-blue);
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--soft-blue);
+}
+
+.info-box-left,
+.info-box-right{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.info-box img{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.price{
+    color:var(--cyan);
+}
+
+.time-countdown{
+    color:var(--soft-blue);
+}
+
+.divider{
+    border-bottom: .001em solid var(--soft-blue);
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.avatar img{
+    width: 34px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar-name{
+    margin-left: 1em;
+    color:var(--soft-blue);
+}
+
+.avatar-name span{
+    color:var(--white);
+}
+
+.avatar-name span:hover{
+    color:var(--cyan);
+    cursor: pointer;
+}
