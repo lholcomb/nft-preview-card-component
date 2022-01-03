@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./https://github.com/lholcomb/nft-preview-card-component/blob/main/images/screenshot.jpg)
 
 
 ### Links
