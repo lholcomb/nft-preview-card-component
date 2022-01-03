@@ -25,7 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](images/screenshot.jpg)
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 
 ### Links
