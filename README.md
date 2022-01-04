@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-Dle6SJwbF)
-- Live Site URL: [Add live site URL here](https://leeholcomb-nft-card.netlify.app/)
+- Solution: [View](https://www.frontendmentor.io/solutions/nft-preview-card-component-Dle6SJwbF)
+- Live Site: [View](https://leeholcomb-nft-card.netlify.app/)
 
 ## My process
 
